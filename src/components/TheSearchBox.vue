@@ -1,5 +1,5 @@
 <template>
-    <div class="flex gap-2">
+    <div class="flex gap-2 w-auto">
         <input 
             type="text" 
             name="searchbox"
@@ -12,7 +12,7 @@
 </template>
     
 <script setup>
-import {defineProps, ref} from 'vue'
+import {ref} from 'vue'
 
 const textValue = ref('')
 
